@@ -1,7 +1,7 @@
 // //definizione variabili 
 
-const age = ''; 
-const percorso = '';
+const distance = document.getElementById(`distance`).value; 
+const age = document.getElementById(`age`).value;
 
 let price = percorso * 0.21 ;
 

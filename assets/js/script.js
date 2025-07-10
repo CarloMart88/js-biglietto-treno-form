@@ -1,14 +1,28 @@
 // //definizione variabili 
 
-const distance = document.getElementById(`distance`).value; 
-const age = document.getElementById(`age`).value;
+
 
 let price = percorso * 0.21 ;
+button.addEventListener(`click` , function(e){
+  e.preventDefault();
+
+  const distance = document.getElementById(`distance`).value; 
+  const age = document.getElementById(`age`).value;
+  
+  console.log(distance , age )
+
+  document.getElementById.(`show-distance`).innerText = distance ;
+  document.getElementById.(`show-age`).innerText = age ;
+  
+
+
+})
 
 let discountBaby = ((price * 20)/100);
 let discountOld = ((price * 40)/100);
 
 let ticket  ;
+
 
 
 if(age < 18 ) {

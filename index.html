@@ -12,17 +12,29 @@
   <div class="row">
     <div class="col-12">
       <form action="">
-        <div class="row">
-          <div class="col-6">
+        <div class="row ">
+          <div class="col-3">
             <input type="text" class="form-control" id="distance" placeholder="inserisci i KM da percorrere">
           </div>
-          <div class="col-6">
+          <div class="col-3">
             <input type="text" class="form-control" id="age" placeholder="inserisci la tua età">
           </div>
-        </div>
+        
+         <div class="col-3">
+            <select class="form-select" id="discount" aria-label="Default select example">
+              <option selected>fascia d'età</option>
+              <option value="Minorenne">Minorenne</option>
+              <option value="18 anni e i 65 anni">Compresa tra i 18 anni e i 65 anni </option>
+              <option value="Over 65 anni">Over 65 anni </option>
+            </select>
+          </div>
+        </div>  
         <div class="row">
-          <div class="col-12">
+          <div class="col-6">
             <button type="button" class="btn btn-primary" id="send">Invia</button>
+          </div>
+          <div class="col-6">
+            <button type="button" class="btn btn-danger" id="">Annulla</button>
           </div>
         </div>
       </form>

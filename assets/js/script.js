@@ -8,16 +8,18 @@ button.addEventListener(`click` , function(e){
 
   const distance = document.getElementById(`distance`).value; 
   const age = document.getElementById(`age`).value;
- 
+  const discount = document.getElementById(`discount`).value;
+
 
  
 
   document.getElementById(`show-distance`).innerText = distance ;
   document.getElementById(`show-age`).innerText = age ;
   
-  console.log(distance , age )
+  
+  console.log(distance , age , discount)
 
-
+  
 })
 
 

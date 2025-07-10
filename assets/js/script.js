@@ -12,9 +12,10 @@ button.addEventListener(`click` , function(e){
 
  
 
-  document.getElementById.(`show-distance`).innerText = distance ;
-  document.getElementById.(`show-age`).innerText = age ;
+  document.getElementById(`show-distance`).innerText = distance ;
+  document.getElementById(`show-age`).innerText = age ;
   
+  console.log(distance , age )
 
 
 })

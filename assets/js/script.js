@@ -1,15 +1,16 @@
 // //definizione variabili 
 
+ const button = document.getElementById(`send`);
 
 
-let price = percorso * 0.21 ;
 button.addEventListener(`click` , function(e){
   e.preventDefault();
 
   const distance = document.getElementById(`distance`).value; 
   const age = document.getElementById(`age`).value;
-  
-  console.log(distance , age )
+ 
+
+ 
 
   document.getElementById.(`show-distance`).innerText = distance ;
   document.getElementById.(`show-age`).innerText = age ;
@@ -18,29 +19,30 @@ button.addEventListener(`click` , function(e){
 
 })
 
-let discountBaby = ((price * 20)/100);
-let discountOld = ((price * 40)/100);
+// let price = percorso * 0.21 ;
+// let discountBaby = ((price * 20)/100);
+// let discountOld = ((price * 40)/100);
 
-let ticket  ;
+// let ticket  ;
 
 
 
-if(age < 18 ) {
+// if(age < 18 ) {
   
- let ticket = price - discountBaby ;
+//  let ticket = price - discountBaby ;
 
- parseFloat(console.log(ticket))
+//  parseFloat(console.log(ticket))
 
-}else if(age > 65) { 
+// }else if(age > 65) { 
   
- let ticket = price - discountOld ;
+//  let ticket = price - discountOld ;
 
- parseFloat(console.log(ticket))
+//  parseFloat(console.log(ticket))
 
-}else {
+// }else {
  
- let ticket = price *1;
+//  let ticket = price *1;
 
- parseFloat(console.log(ticket))
-}
+//  parseFloat(console.log(ticket))
+// }
 

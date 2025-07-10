@@ -42,23 +42,3 @@ button.addEventListener(`click` , function(e){
 
 
 
-
-// if(discount < 18 ) {
-  
-//  let ticket = price - discountBaby ;
-
-//  parseFloat(console.log(ticket))
-
-// }else if(discount > 65) { 
-  
-//  let ticket = price - discountOld ;
-
-//  parseFloat(console.log(ticket))
-
-// }else {
- 
-//  let ticket = price *1;
-
-//  parseFloat(console.log(ticket))
-// }
-

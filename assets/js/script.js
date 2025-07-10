@@ -14,11 +14,22 @@ button.addEventListener(`click` , function(e){
     let price = distance * 0.21 ;
     let discountBaby = ((price * 20)/100);
     let discountOld = ((price * 40)/100);
+
+    if (discount == `Minorenne` ){
+      document.getElementById(`show-price`).innerText = price - (discountBaby).toFixed(2);
+
+    }else if( discount == `Maggiorenne`) {
+
+      document.getElementById(`show-price`).innerText = price
+
+    }else {
+
+      document.getElementById(`show-price`).innerText = (price - discountOld).toFixed(2);
+    }
     
 
   document.getElementById(`show-owner`).innerText = owner ;
-  document.getElementById(`show-price`).innerText = price ;
-  
+   
   
   console.log( owner , distance , discount , price )
 
@@ -28,7 +39,7 @@ button.addEventListener(`click` , function(e){
 
 
 
-// let ticket  ;
+
 
 
 

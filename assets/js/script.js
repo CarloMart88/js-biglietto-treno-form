@@ -6,39 +6,39 @@
 button.addEventListener(`click` , function(e){
   e.preventDefault();
 
+  const owner = document.getElementById(`owner`).value;
   const distance = document.getElementById(`distance`).value; 
-  const age = document.getElementById(`age`).value;
   const discount = document.getElementById(`discount`).value;
 
+    let ticket  ;
+    let price = distance * 0.21 ;
+    let discountBaby = ((price * 20)/100);
+    let discountOld = ((price * 40)/100);
+    
 
- 
-
-  document.getElementById(`show-distance`).innerText = distance ;
-  document.getElementById(`show-age`).innerText = age ;
+  document.getElementById(`show-owner`).innerText = owner ;
+  document.getElementById(`show-price`).innerText = price ;
   
   
-  console.log(distance , age , discount)
+  console.log( owner , distance , discount , price )
 
   
 })
 
 
 
-// let price = percorso * 0.21 ;
-// let discountBaby = ((price * 20)/100);
-// let discountOld = ((price * 40)/100);
 
 // let ticket  ;
 
 
 
-// if(age < 18 ) {
+// if(discount < 18 ) {
   
 //  let ticket = price - discountBaby ;
 
 //  parseFloat(console.log(ticket))
 
-// }else if(age > 65) { 
+// }else if(discount > 65) { 
   
 //  let ticket = price - discountOld ;
 

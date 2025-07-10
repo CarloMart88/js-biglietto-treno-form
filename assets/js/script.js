@@ -20,6 +20,8 @@ button.addEventListener(`click` , function(e){
 
 })
 
+
+
 // let price = percorso * 0.21 ;
 // let discountBaby = ((price * 20)/100);
 // let discountOld = ((price * 40)/100);

@@ -15,25 +15,33 @@
         <div class="row ">
 
 
-          <div class="col-12 mt-3 text-center">
+          <div class="col-12 mt-3 text-center ">
             <div class="row">
 
               <h1 class="mt-2 mb-5">CALCOLA IL PREZZO DEL TUO BIGLIETTO </h1>
-              <div class="col-4">
-                <input type="text" class="form-control" id="owner" placeholder="inserisci nome e cognome">
-              </div>
-              <div class="col-4">
-                <input type="text" class="form-control" id="distance" placeholder="inserisci i KM da percorrere">
-              </div>
-            
-                <div class="col-4">
-                  <select class="form-select" id="discount" aria-label="Default select example">
-                    <option selected>fascia d'età</option>
-                    <option value="Minorenne">Minorenne</option>
-                    <option value="Maggiorenne">Maggiorenne</option>
-                    <option value="Over 65 anni">Over 65 anni</option>
-                  </select>
-                </div>
+                <div class="col-12 bgwhite h-25">
+                  <div class="row">
+                    <div class="col-4">
+                      <p>Nome e Cognome</p>
+                      <input type="text" class="form-control" id="owner" placeholder="inserisci nome e cognome">
+                    </div>
+                    <div class="col-4">
+                      <p>KM da percorrere</p>
+                      <input type="text" class="form-control" id="distance" placeholder="inserisci i KM da percorrere">
+                    </div>
+                
+                    <div class="col-4">
+                      <p>Fascia d'età</p>
+                      <select class="form-select" id="discount" aria-label="Default select example">
+                        <option selected>fascia d'età</option>
+                        <option value="Minorenne">Minorenne</option>
+                        <option value="Maggiorenne">Maggiorenne</option>
+                        <option value="Over 65 anni">Over 65 anni</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>  
+
             </div>
           </div>
         </div>
@@ -41,10 +49,10 @@
         <div class="col-12 mt-5 mb-5">  
           <div class="row mt-4 justify-content-center">
             <div class="col-3 justify-content-center text-end">
-              <button type="button" class="btn btn-primary" id="send">Invia</button>
+              <button type="button" class="btn btn-secondary" id="send">GENERA</button>
             </div>
             <div class="col-3 justify-content-center">
-              <button type="button" class="btn btn-danger" id="">reset</button>
+              <button type="button" class="btn btn-secondary" id="">ANNLLA</button>
             </div>
           </div>
         </div>
@@ -53,7 +61,7 @@
         <h1 class=" text-center">IL TUO BIGLIETTO</h1>
       </div>
       <div class="row">
-        <div class="col-12">
+        <div class="col-12 mb-5">
           <div class="card">
             <div class="mt-3 ms-3">
               <h4>DETTAGLIO PASSEGGERI</h4>

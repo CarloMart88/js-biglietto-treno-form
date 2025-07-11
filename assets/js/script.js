@@ -17,7 +17,7 @@ const MathRandom = () => {
   const discount = document.getElementById(`discount`).value;
   const math = document.getElementById(`math`);
 
-  math.innerHTML += MathRandom()
+  math.innerHTML = MathRandom()
     
     let price = distance * 0.21 ;
     let discountBaby = ((price * 20)/100);

@@ -2,13 +2,15 @@
 
  const button = document.getElementById(`send`);
 
+ const MathRandom = () => {
+  return Math.floor(Math.random() * 10000)
+}
+
+
+
 
 button.addEventListener(`click` , function(e){
   e.preventDefault();
-
-const MathRandom = () => {
-  return Math.floor(Math.random() * 10000)
-}
 
 
 
